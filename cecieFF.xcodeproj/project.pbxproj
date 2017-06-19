@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82D311A61EF78C25009136C9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D311A51EF78C25009136C9 /* main.cpp */; };
+		82D311B11EF78C39009136C9 /* particle_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 82D311AF1EF78C39009136C9 /* particle_filter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,11 @@
 /* Begin PBXFileReference section */
 		82D311A21EF78C25009136C9 /* cecieFF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cecieFF; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D311A51EF78C25009136C9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		82D311AC1EF78C39009136C9 /* helper_functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper_functions.h; sourceTree = "<group>"; };
+		82D311AD1EF78C39009136C9 /* json.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = json.hpp; sourceTree = "<group>"; };
+		82D311AE1EF78C39009136C9 /* map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = map.h; sourceTree = "<group>"; };
+		82D311AF1EF78C39009136C9 /* particle_filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = particle_filter.cpp; sourceTree = "<group>"; };
+		82D311B01EF78C39009136C9 /* particle_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = particle_filter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,11 @@
 			isa = PBXGroup;
 			children = (
 				82D311A51EF78C25009136C9 /* main.cpp */,
+				82D311AC1EF78C39009136C9 /* helper_functions.h */,
+				82D311AD1EF78C39009136C9 /* json.hpp */,
+				82D311AE1EF78C39009136C9 /* map.h */,
+				82D311AF1EF78C39009136C9 /* particle_filter.cpp */,
+				82D311B01EF78C39009136C9 /* particle_filter.h */,
 			);
 			path = cecieFF;
 			sourceTree = "<group>";
@@ -120,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82D311A61EF78C25009136C9 /* main.cpp in Sources */,
+				82D311B11EF78C39009136C9 /* particle_filter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
